@@ -1,11 +1,9 @@
 import os
-
-
-
-#应用名字，用于生成apk后命名
 import shutil
 import zipfile
 
+
+#应用名字，用于生成apk后命名
 APP_NAME = 'zhixinzaixian'
 
 #原apk文件，应该是纯净的apk,在META-INF目录下不含有自己添加的空文件
