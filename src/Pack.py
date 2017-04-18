@@ -40,7 +40,7 @@ def pack():
 
     for channel in channel_list:
         # 每打一次包，需要拷贝下原apk
-        targetApkFile = '../output/' + APP_NAME + "-release-" + channel + ".apk"
+        targetApkFile = '../output/' + 'app-' + channel + "-release" + ".apk"
         shutil.copy(ORIGIN_APK_FILE, targetApkFile)
 
         zipped = zipfile.ZipFile(targetApkFile, 'a', zipfile.ZIP_DEFLATED)
