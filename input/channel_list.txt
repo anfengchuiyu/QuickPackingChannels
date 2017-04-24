@@ -1,4 +1,4 @@
-wandoujia
+ali
 m360
 xiaomi
 meizu
@@ -8,7 +8,6 @@ smartisan
 oppo
 huawei
 pp
-androidMarket
 vivo
 anzhi
 googlePlay
